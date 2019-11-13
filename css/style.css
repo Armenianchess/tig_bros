@@ -8,6 +8,11 @@ body {
   height: 100%;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
 .nav {
   background-color: #dc143c;
   width: 100%;
@@ -316,4 +321,89 @@ li {
   width: 45px;
   height: 13%;
   margin: 16px;
+}
+
+#contact_retry_div {
+  width: 450px;
+  height: 400px;
+
+  margin: auto;
+  position: relative;
+  bottom: 200px;
+}
+
+#retry_location {
+  width: 75px;
+  height: 75px;
+  background-color: lightgray;
+}
+
+#location_div_retry {
+  display: flex;
+}
+
+#location_link_retry {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  font-size: 19px;
+  /*
+    position: relative;
+    bottom: 25px; */
+  margin: auto 0;
+  margin-left: 3%;
+}
+
+#location_link_retry:hover {
+  color: rgb(152, 5, 5);
+}
+
+#retry_phone {
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+}
+
+#phone_link_retry {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  font-size: 20px;
+  /*
+    position: relative;
+    bottom: 25px; */
+  margin: auto 0;
+  margin-left: 20%;
+}
+
+#phone_link_retry:hover {
+  color: rgb(152, 5, 5);
+}
+
+#retry_mail {
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+}
+
+#mail_link_retry {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  font-size: 20px;
+  /*
+    position: relative;
+    bottom: 25px; */
+  margin: auto 0;
+  margin-left: 10%;
+}
+
+#mail_link_retry:hover {
+  color: rgb(152, 5, 5);
 }
