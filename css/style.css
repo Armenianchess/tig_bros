@@ -62,9 +62,19 @@ li {
 
 @media only screen and (max-width: 450px) {
   .nav-bar li a {
-    font-size: 6px;
+    font-size: 11px;
+   
   }
 }
+
+
+@media only screen and (max-width: 450px) {
+  .nav-bar li  {
+    width: 20px;
+   
+  }
+}
+
 .contain {
   position: relative;
 }
@@ -172,6 +182,8 @@ li {
   width: 100%;
   height: 850px;
 }
+
+
 
 #contact_content {
   border: 1px transparent solid;
@@ -378,7 +390,7 @@ li {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
     color: black;
-     font-size: 1rem;
+     font-size: 20px;
      /*
 
   font-size: 19px;
@@ -388,6 +400,14 @@ li {
   margin: auto 0;
   margin-left: 3%;
 }
+
+@media only screen and (max-width: 450px) {
+  #location_link_retry {
+    font-size: 14px;
+
+  }
+}
+
 
 #location_link_retry:hover {
   color: rgb(152, 5, 5);
@@ -416,6 +436,13 @@ li {
   margin-left: 20%;
 }
 
+@media only screen and (max-width: 450px) {
+  #phone_link_retry {
+    font-size: 14px;
+
+  }
+}
+
 #phone_link_retry:hover {
   color: rgb(152, 5, 5);
 }
@@ -441,6 +468,13 @@ color: black;
     bottom: 25px; */
   margin: auto 0;
   margin-left: 10%;
+}
+
+@media only screen and (max-width: 450px) {
+  #mail_link_retry {
+    font-size: 14px;
+
+  }
 }
 
 #mail_link_retry:hover {
