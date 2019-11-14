@@ -7,6 +7,12 @@ body {
   margin: 0;
   height: 100%;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
 .nav {
   background-color: #dc143c;
   width: 100%;
@@ -354,7 +360,6 @@ li {
   margin: auto;
   position: relative;
   bottom: 200px;
-
 }
 
 #retry_location {
@@ -364,7 +369,6 @@ li {
 }
 
 #location_div_retry {
-
   display: flex;
 }
 
@@ -376,26 +380,23 @@ li {
     color: black;
      font-size: 1rem;
      /*
+
+  font-size: 19px;
+  /*
     position: relative;
     bottom: 25px; */
-    margin: auto 0;
-    margin-left: 3%;
-
-  
+  margin: auto 0;
+  margin-left: 3%;
 }
 
 #location_link_retry:hover {
   color: rgb(152, 5, 5);
-
- 
 }
 
 #retry_phone {
   width: 75px;
   height: 75px;
   background-color: transparent;
-
-
 }
 
 #phone_link_retry {
@@ -406,32 +407,23 @@ li {
     color: black;
      font-size: 20px;
      /*
+
+  font-size: 20px;
+  /*
     position: relative;
     bottom: 25px; */
-    margin: auto 0;
-    margin-left: 20%;
-   
-    
-
-  
+  margin: auto 0;
+  margin-left: 20%;
 }
 
 #phone_link_retry:hover {
   color: rgb(152, 5, 5);
-
- 
 }
-
-
-
-
 
 #retry_mail {
   width: 75px;
   height: 75px;
   background-color: transparent;
-
-
 }
 
 #mail_link_retry {
@@ -442,14 +434,13 @@ li {
 color: black;
      font-size: 20px;
      /*
+
+  font-size: 20px;
+  /*
     position: relative;
     bottom: 25px; */
-    margin: auto 0;
-    margin-left: 10%;
-   
-    
-
-  
+  margin: auto 0;
+  margin-left: 10%;
 }
 
 #mail_link_retry:hover {
